@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-  origin: ["http://localhost:4002", "http://localhost:3000","https://fitness-tracker-api-mui5.onrender.com"],
+  origin: ["http://localhost:4002", "http://localhost:3000"],
   credentials: true,
   optionsSuccessStatus: 200,
 };
